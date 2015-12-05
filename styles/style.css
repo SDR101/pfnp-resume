@@ -1,14 +1,46 @@
-body1 {
+body {
+	background-image: url(http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg);
+	background-repeat: no-repeat;
+	background-size: 1280px 800px;
 	text-align: center;
+	font-family: helvetica;
 }
 
-
+.img-circle{
+			border-radius: 50%;
+}
 
 #first {
 	color: red;
 }
 
-.current {
-	border: 1px solid black;
+ol {
+	list-style-position: inside;
+}
 
+nav {
+	background-color: gray;
+	list-style-position: inside;
+}
+
+.nav-items {
+	display: inline;
+	margin: 10px;
+}
+
+.about-me {
+	width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#about {
+	float: left;
+}
+
+#music {
+	float: right;
+}
+
+#current {
 }
